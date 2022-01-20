@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    
+}
+.top {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+    padding: 1%;
+}
+
+span{
+    color: rgb(218, 145, 10);
+    font-size: 40px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.nav {
+    margin-top: -32px;
+    background-color: rgb(223, 213, 213);
+    padding: 1px;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgba(10, 8, 8, 0.575);
+    font-size: 13px;
+    list-style-type: none;
+}
+.nav li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 1cm;
+    color: white;
+}
+
+.text{
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.second-list li{
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    
+}
+
+.second-list li a{
+    color: yellow;
+}
+
+.second{
+    background-color: rgb(126, 118, 118);
+    margin-left: 5px;
+}
+
+footer{
+    background-color: rgb(90, 90, 90);
+    text-align: center;
+    padding: 1%;
+    font-size: 33px;
+    color:white;
+    margin-top: 10px;
+}
