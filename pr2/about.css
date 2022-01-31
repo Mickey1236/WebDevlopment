@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.footer{
+    width: 100vw;
+    height: 3.5rem;
+    background-color: darkblue;
+    margin-top: auto;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.footer p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 3.5rem;
+}
+
+#floatingTextarea{
+    height: 10rem;
+}
+
+#error_message{
+    font-size: 30px;
+    color: darkblue;
+}
+
+img {
+    height: 160px;
+    width: 150PX;
+}
+
+#content{
+    background-color: lightcyan;
+}
+
+.form-floating input{
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+
+
+}
+.form-floating textarea{
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+#btn-1{
+    padding: 10px;
+    font-size: 17px;
+    border: 4px dotted darkblue;
+    text-align: center;
+}
